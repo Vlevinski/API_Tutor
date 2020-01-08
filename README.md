@@ -14,3 +14,4 @@
 3. Update the key in the main.app
 4.  Start main.py locally
 5.  use endpoint rates to ger rates in the Browser
+![Buble_image.png](Buble_image.png)
