@@ -20,7 +20,7 @@ def getExchangeRates():
     return ratesj
 
 @app.route("/rates")
-def hotdogs():
+def today_rates():
     rates = getExchangeRates()
     currency = BarChart("currency", options={"title": "Currency rates",
                                                   "width": 500,
@@ -35,7 +35,7 @@ def hotdogs():
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "Hello API World! Use /rates endpoint to get today rates :-)"
 
 if __name__ == "__main__":
     app.run()
