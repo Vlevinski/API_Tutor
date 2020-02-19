@@ -15,4 +15,4 @@
 4.  Start main.py locally
 5.  use endpoint rates to ger rates in the Browser
 
-![BubbleChart.png](BubbleChart.png)
+![RatesChart.png](Rates.png)
