@@ -48,6 +48,11 @@ def hotdogs():
     return render_template("rates.html", rates=rates)
 
 
+@app.route("/pie")
+def pie_chart():
+    # pie chart in html
+    return render_template("pie_chart.html")
+
 @app.route("/")
 def hello():
     return "Hello API World! Use /rates endpoint to get today rates :-)"
