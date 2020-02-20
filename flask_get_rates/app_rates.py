@@ -55,7 +55,7 @@ def pie_chart():
 
 @app.route("/")
 def hello():
-    return "Hello API World! Use /rates endpoint to get today rates :-)"
+    return "Hello API World!  try /rates, /pie"
 
 
 if __name__ == "__main__":
