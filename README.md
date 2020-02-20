@@ -14,6 +14,6 @@
 3. Update the key in the main.app
 4.  Start main.py locally
 5.  use endpoint rates to get rates in the Browser
-     **Important** - Don't forget point 1, insert it in rates.py
+     **Important** - Don't forget the point 1 and insert it in rates.py
 
 ![RatesChart.png](Rates.png)
